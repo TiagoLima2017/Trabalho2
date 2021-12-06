@@ -28,14 +28,24 @@
     <!-- This input box shows the button pressed by the user in calculator. -->  
     <h1>Calculadora
     </h1>
-  <input id ="calc" type ="text" class="outpute" name = "answer" placeholder="Calculadora"> <br> <br>
+  <input id ="dec" type ="text" class="outpute" name = "answer" readonly placeholder="Decimal"onkeypress="return (event.charCode !=8 && event.charCode ==0 || ((event.charCode >= 48 && event.charCode <= 57)))"  spellcheck="false">  <br> <br>
   <!-- Display the calculator button on the screen. -->  
   <!-- onclick() function display the number prsses by the user. -->  
-    <input type = "button"  class="outputt" value = "1" onclick = "form1.answer.value += '1' ">  
-    <input type = "button" class="outputt" value = "0" onclick = "form1.answer.value += '0' ">  
-    
+  <input type = "button"  class="outputt" value = "7" onclick = "form1.answer.value += '7' ">  
+  <input type = "button" class="outputt" value = "8" onclick = "form1.answer.value += '8' ">  
+  <input type = "button"  class="outputt" value = "9" onclick = "form1.answer.value += '9' ">  
   <br> <br>  
     
+  <input type = "button"  class="outputt" value = "4" onclick = "form1.answer.value += '4' ">  
+  <input type = "button" class="outputt" value = "5" onclick = "form1.answer.value += '5' ">  
+  <input type = "button"  class="outputt" value = "6" onclick = "form1.answer.value += '6' ">  
+  <br> <br>  
+
+  <input type = "button"  class="outputt" value = "1" onclick = "form1.answer.value += '1' ">  
+  <input type = "button" class="outputt" value = "2" onclick = "form1.answer.value += '2' ">  
+  <input type = "button"  class="outputt" value = "3" onclick = "form1.answer.value += '3' ">  
+  <br> <br>  
+  <input type = "button" class="outputt" value = "0" onclick = "form1.answer.value += '0' ">   
   <input type = "button" class="outputt" value = "+" onclick = "form1.answer.value += '+' ">  
   <input type = "button" class="outputt" value = "-" onclick = "form1.answer.value += '-' ">  
   <br> <br>  
@@ -44,29 +54,14 @@
   <input type = "button" class="outputt"  id="igual" value = "Igual" onclick = "form1.answer.value = eval(form1.answer.value);  ">  
   <br>   <br>
   <!-- Display the Cancel button and erase all data entered by the user. -->  
-  <input id="dec" class="output" placeholder="Decimal" onkeypress="return (event.charCode !=8 && event.charCode ==0 || ((event.charCode >= 48 && event.charCode <= 49)))"  spellcheck="false">
-  <input id="bin" class="output" placeholder="Resultado" onkeypress="return (event.charCode !=8 && event.charCode ==0 || ((event.charCode >= 48 && event.charCode <= 49)))"  spellcheck="false">
+  Binário<input id="bin" class="output" placeholder="Binário" readonly>
+  Octal<input id="oct" class="output" placeholder="Octal" readonly>
+  Hexadecimal<input id="hex" class="output" placeholder="Hexadecimal" readonly>
   <input type = "reset" class="limpar" value = "Limpar" onclick = "form1.answer.value = ' ' " id= "Limpar" >  
   <br>   
     
 </form>  
 </div>  
-<footer class="footer text-center fixed-bottom">
-    <div class="container">
-        <div class="row">
-            <!-- Footer Location-->
-            <!-- Footer Social Icons-->
-            <div class="col-lg mb-5 mb-lg-0">
-                <h4 class="text-uppercase mb-4">E-mails de cada um</h4>
-                <a class="btn btn-outline-light btn-social mx-1" href="mailto:tiago_lima213@hotmail.com?subject=Testing out mailto!&body=This is only a test!"><i class="fas fa-envelope-square"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="mailto:tiagonbarreto@gmail.com?subject=Testing out mailto!&body=This is only a test!"><i class="fas fa-envelope-square"></i></a>
-            </div>
-            <!-- Footer About Text-->
-          
-        </div>
-    </div>
-    
-</footer> 
 <script src="script.js"></script>
 </body>  
 </html>  

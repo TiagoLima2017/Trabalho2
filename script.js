@@ -27,11 +27,13 @@ for (var i = 0; i < inputEl.length; i++) {
     });
 };
 igualEl.addEventListener("click", e => {
-    var calculo = document.getElementById("calc");
+    var calculo = document.getElementById("dec");
     if (resulte == calculo.value) return;
  
     resulte = Number(calculo.value);
 
       binary.value = resulte.toString(mapper["bin"]);
-      decimal.value = Number(resulte).toString(mapper["dec"]); 
+      decimal.value = Number(resulte).toString(mapper["dec"]);
+      octal.value = resulte.toString(mapper["oct"]); 
+      hexadecimal.value = resulte.toString(mapper["hex"]);  
 });
