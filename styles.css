@@ -1,0 +1,96 @@
+
+.containee{
+    text-align: center;
+    background:linear-gradient(to bottom, #678983, #678493); ;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    max-width: 80%;
+    width: 400px;
+}
+.outpute{
+    background:linear-gradient(to right, #181d31,#000);
+    border:0;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    margin-top: 4px;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.output{
+    background:linear-gradient(to right, #181d31,#000);
+    border:0;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    margin-top: 4px;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.limpar{
+    align-content: center;
+    background:linear-gradient(to right, #181d31,#000);
+    border:0;
+    margin:auto;
+    width: 40%;
+    padding: 10px ;
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    margin-top: 4px;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.limpar:hover{
+    background:linear-gradient(to right ,#000,#181d31);
+}
+.title{
+    color:linear-gradient(to right ,#000,#181d31) ;
+    font-size: 21.6px;
+    text-align: center;
+
+}
+h1 {
+    font-size: 21.6px;
+    background:linear-gradient(to right,#fff,#fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body {
+    font-family: 'Roboto Mono',monospace;
+    background-color: #f0e9d2;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  .outputt{
+    background:linear-gradient(to right, #181d31,#000);
+    border:0;
+    width: 20%;
+    padding: 10px 0;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 4px;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}

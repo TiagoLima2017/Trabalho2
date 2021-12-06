@@ -1,0 +1,76 @@
+<!-- Create a simple Program to build the Calculator in JavaScript using with HTML and CSS web languages. -->  
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top"><img  src="https://qualifica-dev.exponor.pt/wp-content/uploads/2019/01/logo_texto_preto.gif" alt="Qualifica"  height="50"></a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html">Conversor</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</head>
+
+<div class="wrapper">
+    <div class="containee">
+<form name = "form1">  
+      
+    <!-- This input box shows the button pressed by the user in calculator. -->  
+    <h1>Calculadora
+    </h1>
+  <input id ="calc" type ="text" class="outpute" name = "answer" placeholder="Calculadora"> <br> <br>
+  <!-- Display the calculator button on the screen. -->  
+  <!-- onclick() function display the number prsses by the user. -->  
+    <input type = "button"  class="outputt" value = "1" onclick = "form1.answer.value += '1' ">  
+    <input type = "button" class="outputt" value = "0" onclick = "form1.answer.value += '0' ">  
+    
+  <br> <br>  
+    
+  <input type = "button" class="outputt" value = "+" onclick = "form1.answer.value += '+' ">  
+  <input type = "button" class="outputt" value = "-" onclick = "form1.answer.value += '-' ">  
+  <br> <br>  
+    
+    <!-- When we click on the '=' button, the onclick() shows the sum results on the calculator screen. -->  
+  <input type = "button" class="outputt"  id="igual" value = "Igual" onclick = "form1.answer.value = eval(form1.answer.value);  ">  
+  <br>   <br>
+  <!-- Display the Cancel button and erase all data entered by the user. -->  
+  <input id="dec" class="output" placeholder="Decimal" onkeypress="return (event.charCode !=8 && event.charCode ==0 || ((event.charCode >= 48 && event.charCode <= 49)))"  spellcheck="false">
+  <input id="bin" class="output" placeholder="Resultado" onkeypress="return (event.charCode !=8 && event.charCode ==0 || ((event.charCode >= 48 && event.charCode <= 49)))"  spellcheck="false">
+  <input type = "reset" class="limpar" value = "Limpar" onclick = "form1.answer.value = ' ' " id= "Limpar" >  
+  <br>   
+    
+</form>  
+</div>  
+<footer class="footer text-center fixed-bottom">
+    <div class="container">
+        <div class="row">
+            <!-- Footer Location-->
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4"><a href="outros.html">Outros Trabalhos</a></h4>
+                <a class="btn btn-outline-light btn-social mx-1" href="UFP-INF-TP01-TIAGO.L-TIAGO.B-html/index.html"><i class="fas fa-file"></i></a>
+            </div>
+            <!-- Footer Social Icons-->
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4">E-mails de cada um</h4>
+                <a class="btn btn-outline-light btn-social mx-1" href="mailto:tiago_lima213@hotmail.com?subject=Testing out mailto!&body=This is only a test!"><i class="fas fa-envelope-square"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="mailto:tiagonbarreto@gmail.com?subject=Testing out mailto!&body=This is only a test!"><i class="fas fa-envelope-square"></i></a>
+            </div>
+            <!-- Footer About Text-->
+          
+        </div>
+    </div>
+    
+</footer> 
+<script src="script.js"></script>
+</body>  
+</html>  
