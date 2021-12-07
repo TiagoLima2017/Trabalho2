@@ -4,7 +4,7 @@
     background:linear-gradient(to left, #2b2f3d, #49400b); ;
     border-radius: 10px;
     padding: 20px;
-    color: rgb(94, 67, 26);
+    color: rgb(255, 244, 206);
     max-width: 80%;
     width: 400px;
 }
@@ -18,7 +18,7 @@
     display: flex;
     margin-top: 4px;
     justify-content: center;
-    color: rgb(87, 66, 11);
+    color: rgb(255, 252, 208);
     font-size: 16px;
     text-align: center;
 }
@@ -34,23 +34,23 @@
     display: flex;
     margin-top: 4px;
     justify-content: center;
-    color: rgb(75, 71, 15);
+    color: rgb(255, 255, 255);
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 .limpar:hover{
-    background:linear-gradient(to right ,#000,#181d31);
+    background:linear-gradient(to right ,rgb(70, 69, 29),#202b53);
 }
 .title{
-    color:linear-gradient(to right ,#000,#181d31) ;
+    color:linear-gradient(to right ,rgb(66, 55, 31),#221f4b) ;
     font-size: 21.6px;
     text-align: center;
 
 }
 h1 {
     font-size: 21.6px;
-    background:linear-gradient(to right,rgb(179, 113, 16),rgb(103, 98, 196));
+    background:linear-gradient(to right,rgb(255, 255, 255),rgb(149, 142, 241));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
