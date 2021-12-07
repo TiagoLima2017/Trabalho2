@@ -3,8 +3,6 @@ var octal = document.getElementById("oct")
 var decimal = document.getElementById("dec");
 var hexadecimal = document.getElementById("hex");
 var inputEl = document.getElementsByClassName("output");
-var calcEl = document.getElementsByClassName("outpute");
-var igualEl = document.getElementById("igual");
 var resulte = 0;
 var mapper = {
     "bin":2,
@@ -18,22 +16,14 @@ for (var i = 0; i < inputEl.length; i++) {
     element.addEventListener("keyup", e => {
         var inputId = e.target.id;
         var inputValue = parseInt(document.getElementById(inputId).value, mapper[inputId]);
-        var result = Number.isNaN(inputValue) ? "Inválido" : inputValue;
 
+        /* se o valor do resultado não for valido escreve inválido em vez de aparecer NaN , */
+        var result = Number.isNaN(inputValue) ? "Inválido" : inputValue;
+        /* se o valor do id selecionado for diferente da variavel InputId vai dar o resultado do valor em varias toStrings (2-binario , 8- octal , 10-decimal , 16- hexadecimal) */
+        
         if ("bin" != inputId) { binary.value = result.toString(mapper["bin"]) }
         if ("oct" != inputId) { octal.value = result.toString(mapper["oct"]) }
         if ("dec" != inputId) { decimal.value = result.toString(mapper["dec"]) }
         if ("hex" != inputId) { hexadecimal.value = result.toString(mapper["hex"]) }
     });
 };
-igualEl.addEventListener("click", e => {
-    var calculo = document.getElementById("dec");
-    if (resulte == calculo.value) return;
- 
-    resulte = Number(calculo.value);
-
-      binary.value = resulte.toString(mapper["bin"]);
-      decimal.value = Number(resulte).toString(mapper["dec"]);
-      octal.value = resulte.toString(mapper["oct"]); 
-      hexadecimal.value = resulte.toString(mapper["hex"]);  
-});

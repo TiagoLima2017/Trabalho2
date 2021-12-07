@@ -8,29 +8,6 @@
     max-width: 80%;
     width: 400px;
 }
-.containeer{
-    text-align: center;
-    background:linear-gradient(to bottom, #678983, #678493); ;
-    border-radius: 10px;
-    padding: 20px;
-    color: white;
-    max-width: 100%;
-    width: 400px;
-}
-.outpute{
-    background:linear-gradient(to right, #181d31,#000);
-    border:0;
-    width: 100%;
-    padding: 10px 0;
-    border-radius: 10px;
-    outline: none;
-    display: flex;
-    margin-top: 4px;
-    justify-content: center;
-    color: white;
-    font-size: 16px;
-    text-align: center;
-}
 .output{
     background:linear-gradient(to right, #181d31,#000);
     border:0;
@@ -82,6 +59,8 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    max-height: 50%;
+    
 }
 body {
     font-family: 'Roboto Mono',monospace;
@@ -90,16 +69,3 @@ body {
     background-position: center top;
     background-repeat: no-repeat;
   }
-  .outputt{
-    background:linear-gradient(to right, #181d31,#000);
-    border:0;
-    width: 20%;
-    padding: 10px 0;
-    border-radius: 10px;
-    outline: none;
-    margin-top: 4px;
-    justify-content: center;
-    color: white;
-    font-size: 16px;
-    text-align: center;
-}
