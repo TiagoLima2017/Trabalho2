@@ -8,6 +8,15 @@
     max-width: 80%;
     width: 400px;
 }
+.containeer{
+    text-align: center;
+    background:linear-gradient(to bottom, #678983, #678493); ;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    max-width: 100%;
+    width: 400px;
+}
 .outpute{
     background:linear-gradient(to right, #181d31,#000);
     border:0;
