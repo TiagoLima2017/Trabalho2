@@ -1,15 +1,15 @@
 
 .containee{
     text-align: center;
-    background:linear-gradient(to bottom, #678983, #678493); ;
+    background:linear-gradient(to left, #2b2f3d, #49400b); ;
     border-radius: 10px;
     padding: 20px;
-    color: white;
+    color: rgb(94, 67, 26);
     max-width: 80%;
     width: 400px;
 }
 .output{
-    background:linear-gradient(to right, #181d31,#000);
+    background:linear-gradient(to right, #323233,rgb(41, 28, 3));
     border:0;
     width: 100%;
     padding: 10px 0;
@@ -18,7 +18,7 @@
     display: flex;
     margin-top: 4px;
     justify-content: center;
-    color: white;
+    color: rgb(87, 66, 11);
     font-size: 16px;
     text-align: center;
 }
@@ -34,7 +34,7 @@
     display: flex;
     margin-top: 4px;
     justify-content: center;
-    color: white;
+    color: rgb(75, 71, 15);
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -50,7 +50,7 @@
 }
 h1 {
     font-size: 21.6px;
-    background:linear-gradient(to right,#fff,#fff);
+    background:linear-gradient(to right,rgb(179, 113, 16),rgb(103, 98, 196));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -64,7 +64,7 @@ h1 {
 }
 body {
     font-family: 'Roboto Mono',monospace;
-    background-color: #f0e9d2;
+    background-color: #3b309ca9;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
